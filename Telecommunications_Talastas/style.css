@@ -1,0 +1,139 @@
+html{
+	scroll-behavior:smooth;
+}
+
+.nav{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.bgcolor{
+	background-color: black;
+}
+
+.navbar{
+	text-decoration: none;
+	float: right;
+	margin-right: 60px;
+	margin-top: 29px;
+	font-family: 'Droid Serif';
+	font-size: 21px;
+	color: #E5EEF8;
+    text-align: center;
+}
+
+.navbarLogo{
+	height:60px;
+	width: 80px;
+}
+
+/**body**/
+
+body{
+	text-align:center;
+	background-image:url('bgimg.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	background: #FCDDB0;
+}
+
+.headerimg{
+	width:100%;
+	height: 550px;
+}
+
+.telecomHeaderImg{
+	width: 100%;
+	height: 250px;
+}
+
+.text1{
+	text-align: justify;
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+	position: absolute;
+	top: 160%;
+	margin: 20px;
+}	
+
+.text1cont{
+	text-align: justify;
+	color: white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+	position: absolute;
+	top: 190%;
+	margin: 20px;
+}
+
+.img1{
+	width:100%;
+	height: 500px;
+}	
+	
+.importanceHeaderImg{
+	width: 100%;
+	height: 250px;
+}
+
+.importanceCaption{
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+	position: absolute;
+	text-align: center;
+}
+
+.img2{
+	width:100%;
+}	
+
+.productsHeaderImg{
+	width: 100%;
+	height: 250px;
+}
+
+.img3{
+	width:100%;
+}	
+
+.telecomDayHeaderImg{
+	width: 100%;
+	height: 250px;
+}
+
+.text2{
+	text-align: justify;
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+	margin: 15px;
+}	
+
+.text2cont1{
+	text-align: justify;
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+	margin: 15px;
+}	
+
+.text2cont2{
+	text-align: justify;
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+	margin: 15px;
+}	
+
+.unTelecomDay{
+	width:100%;
+}
+
+.takeawayHeaderImg{
+	width: 100%;
+	height: 190px;
+}
