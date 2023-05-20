@@ -15,7 +15,7 @@
 					<a onclick = "myFunction()"> <img class = "navbarLogo" src = "images/logo.png"> </a>
 					<a class = "navbar" href = "#takeaways"> Takeaways </a>
 					<a class = "navbar" href = "#telecomDay"> Telecommunications Day </a>
-					<a class = "navbar" href = "#products"> Telecommunication Products </a>
+					<a class = "navbar" href = "#devices"> Telecommunication Devices </a>
 					<a class = "navbar" href = "#importance"> Importance </a>
 					<a class = "navbar" href = "#telecoms"> Telecommunications </a>
 				</div>
@@ -84,9 +84,48 @@
 			<img class = "img2" src = "images/img2.png">
 		</section>
 		
-		<section id = "products">
-			<img class = "productsHeaderImg" src = "images/productsheader.png">
-			<img class = "img3" src = "images/img3.png">
+		<section id = "devices">
+			<img class = "devicesHeaderImg" src = "images/devicesheader.png">
+			<br>
+			
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+					<img src="images/img3.png" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<img src="images/img4.png" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+					<img src="images/img5.png" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+					<img src="images/img6.png" style="width:100%">
+				</div>
+				
+				<div class="mySlides fade">
+					<img src="images/img7.png" style="width:100%">
+				</div>
+
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<br>
+
+			<!-- The dots/circles -->
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+			</div>
 		</section>
 			
 		<section id = "telecomDay"  style = "background-color:#E5EEF8;">
@@ -119,19 +158,20 @@
 			<br><br>
 			
 			<form>
-				<label for="userName">Username:</label><br/>
+				<label for="userName">Name:</label><br/>
 				<input type="text" id="userName" name="userName"> 
 				<br><br>
 				<label for="age">Enter your age: </label>
 				<input type="number" id="age" name="age" min="11" max="50">
 				<br><br>
-				<label for="comments">Comments about the website: </label></br>
-				<textarea id="tArea" name="comments" rows="4" cols="50"> </textarea>
+				<label for="email">Email:</label><br/>
+				<input type="text" id="email" name="email"> 
 				<br><br>
 				<label for="comments">Learnings: </label></br>
 				<textarea id="tArea" name="comments" rows="4" cols="50"> </textarea>
 				<br><br>
-				<input type = "submit" value = "Submit form">
+				
+				<input onclick = "tyFunction()" type = "submit" value = "Submit">
 				
 				<br><br>
 			</form>
@@ -144,6 +184,13 @@
 			<p> &copy 2023 Copyright - All rights reserved. <br> 
 				Email: <a href = "mailto:mtalastas@crc.pshs.edu.ph">mtalastas@crc.pshs.edu.ph</a> <br>
 				Disclaimer: I don't own any images or videos. All rights belong to the rightful owner. </p>
+			<br>
+			<form>
+				<label for="comments">Comments and Recommendations about the Website: </label></br>
+				<textarea id="tArea" name="comments" rows="4" cols="50"> </textarea>
+				<br>
+				<input onclick = "ty2Function()" type = "submit" value = "Submit Form">
+			</form>
 			<br><br>
 		</footer>
 </html>
